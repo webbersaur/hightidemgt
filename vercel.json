@@ -1,31 +1,4 @@
 {
-  "redirects": [
-    { "source": "/about-us/", "destination": "/about.html", "permanent": true },
-    { "source": "/about-us", "destination": "/about.html", "permanent": true },
-    { "source": "/contact-us/", "destination": "/contact.html", "permanent": true },
-    { "source": "/contact-us", "destination": "/contact.html", "permanent": true },
-    { "source": "/services/data-destruction/", "destination": "/services/data-destruction.html", "permanent": true },
-    { "source": "/services/data-destruction", "destination": "/services/data-destruction.html", "permanent": true },
-    { "source": "/services/it-asset-disposition/", "destination": "/services/it-asset-disposition.html", "permanent": true },
-    { "source": "/services/it-asset-disposition", "destination": "/services/it-asset-disposition.html", "permanent": true },
-    { "source": "/services/electronic-recycling/", "destination": "/services/electronic-recycling.html", "permanent": true },
-    { "source": "/services/electronic-recycling", "destination": "/services/electronic-recycling.html", "permanent": true },
-    { "source": "/services/data-center-decommissioning/", "destination": "/services/data-center-decommissioning.html", "permanent": true },
-    { "source": "/services/data-center-decommissioning", "destination": "/services/data-center-decommissioning.html", "permanent": true },
-    { "source": "/merchandising-recycling/", "destination": "/merchandising-recycling.html", "permanent": true },
-    { "source": "/merchandising-recycling", "destination": "/merchandising-recycling.html", "permanent": true },
-    { "source": "/commodities/", "destination": "/commodities.html", "permanent": true },
-    { "source": "/commodities", "destination": "/commodities.html", "permanent": true },
-    { "source": "/our-network/", "destination": "/our-network.html", "permanent": true },
-    { "source": "/our-network", "destination": "/our-network.html", "permanent": true },
-    { "source": "/data-destruction-company-ct-questions/", "destination": "/blog/data-destruction-questions.html", "permanent": true },
-    { "source": "/connecticut-e-waste-laws-businesses-2026/", "destination": "/blog/ct-ewaste-laws.html", "permanent": true },
-    { "source": "/data-center-decommissioning-checklist/", "destination": "/blog/decommissioning-checklist.html", "permanent": true },
-    { "source": "/it-asset-disposition-guide-ct-businesses/", "destination": "/blog/what-is-itad.html", "permanent": true },
-    { "source": "/hard-drive-shredding-vs-data-wiping/", "destination": "/blog/shredding-vs-wiping.html", "permanent": true },
-    { "source": "/recycle-old-computers-ct/", "destination": "/blog/recycle-old-computers.html", "permanent": true },
-    { "source": "/cloud-migration-data-center-decommissioning/", "destination": "/blog/cloud-migration-decommissioning.html", "permanent": true },
-    { "source": "/it-equipment-disposal-mistakes/", "destination": "/blog/it-disposal-mistakes.html", "permanent": true },
-    { "source": "/certificate-of-destruction/", "destination": "/blog/certificate-of-destruction.html", "permanent": true }
-  ]
+  "cleanUrls": true,
+  "trailingSlash": true
 }

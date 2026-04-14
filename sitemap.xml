@@ -13,55 +13,55 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://hightidemgt.com/services/data-destruction.html</loc>
+    <loc>https://hightidemgt.com/services/data-destruction/</loc>
     <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hightidemgt.com/services/it-asset-disposition.html</loc>
+    <loc>https://hightidemgt.com/services/it-asset-disposition/</loc>
     <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hightidemgt.com/services/electronic-recycling.html</loc>
+    <loc>https://hightidemgt.com/services/electronic-recycling/</loc>
     <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hightidemgt.com/services/data-center-decommissioning.html</loc>
+    <loc>https://hightidemgt.com/services/data-center-decommissioning/</loc>
     <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hightidemgt.com/commodities.html</loc>
+    <loc>https://hightidemgt.com/commodities/</loc>
     <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hightidemgt.com/merchandising-recycling.html</loc>
+    <loc>https://hightidemgt.com/merchandising-recycling/</loc>
     <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hightidemgt.com/our-network.html</loc>
+    <loc>https://hightidemgt.com/our-network/</loc>
     <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://hightidemgt.com/about.html</loc>
+    <loc>https://hightidemgt.com/about-us/</loc>
     <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hightidemgt.com/contact.html</loc>
+    <loc>https://hightidemgt.com/contact-us/</loc>
     <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -73,74 +73,56 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://hightidemgt.com/blog/data-destruction-questions.html</loc>
+    <loc>https://hightidemgt.com/data-destruction-company-ct-questions/</loc>
     <lastmod>2026-02-17</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://hightidemgt.com/blog/ct-ewaste-laws.html</loc>
+    <loc>https://hightidemgt.com/connecticut-e-waste-laws-businesses-2026/</loc>
     <lastmod>2026-02-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://hightidemgt.com/blog/decommissioning-checklist.html</loc>
+    <loc>https://hightidemgt.com/data-center-decommissioning-checklist/</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://hightidemgt.com/blog/what-is-itad.html</loc>
+    <loc>https://hightidemgt.com/it-asset-disposition-guide-ct-businesses/</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://hightidemgt.com/blog/shredding-vs-wiping.html</loc>
+    <loc>https://hightidemgt.com/hard-drive-shredding-vs-data-wiping/</loc>
     <lastmod>2026-03-17</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://hightidemgt.com/blog/recycle-old-computers.html</loc>
+    <loc>https://hightidemgt.com/recycle-old-computers-ct/</loc>
     <lastmod>2026-03-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://hightidemgt.com/blog/cloud-migration-decommissioning.html</loc>
+    <loc>https://hightidemgt.com/cloud-migration-data-center-decommissioning/</loc>
     <lastmod>2026-03-31</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://hightidemgt.com/blog/it-disposal-mistakes.html</loc>
+    <loc>https://hightidemgt.com/it-equipment-disposal-mistakes/</loc>
     <lastmod>2026-04-07</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://hightidemgt.com/blog/certificate-of-destruction.html</loc>
+    <loc>https://hightidemgt.com/certificate-of-destruction/</loc>
     <lastmod>2026-04-14</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hightidemgt.com/blog/environmental-cost-ewaste.html</loc>
-    <lastmod>2026-04-21</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hightidemgt.com/blog/data-center-shutdown-savings.html</loc>
-    <lastmod>2026-04-28</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hightidemgt.com/blog/itad-healthcare-hipaa.html</loc>
-    <lastmod>2026-05-05</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
