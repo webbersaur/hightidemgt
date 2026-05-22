@@ -65,9 +65,25 @@
           "latitude": 41.2762,
           "longitude": -72.8152
         },
-        "areaServed": {
-          "@type": "State",
-          "name": "Connecticut"
+        "areaServed": [
+          {"@type": "City", "name": "Branford", "sameAs": "https://en.wikipedia.org/wiki/Branford,_Connecticut"},
+          {"@type": "City", "name": "Guilford", "sameAs": "https://en.wikipedia.org/wiki/Guilford,_Connecticut"},
+          {"@type": "City", "name": "New Haven", "sameAs": "https://en.wikipedia.org/wiki/New_Haven,_Connecticut"},
+          {"@type": "City", "name": "North Haven", "sameAs": "https://en.wikipedia.org/wiki/North_Haven,_Connecticut"},
+          {"@type": "City", "name": "Hamden", "sameAs": "https://en.wikipedia.org/wiki/Hamden,_Connecticut"},
+          {"@type": "City", "name": "Madison", "sameAs": "https://en.wikipedia.org/wiki/Madison,_Connecticut"},
+          {"@type": "City", "name": "East Haven", "sameAs": "https://en.wikipedia.org/wiki/East_Haven,_Connecticut"},
+          {"@type": "State", "name": "Connecticut"}
+        ],
+        "hasCredential": {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "R2v3 Certified Electronics Recycler",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Sustainable Electronics Recycling International (SERI)",
+            "url": "https://sustainableelectronics.org/r2-standard/"
+          }
         },
         "foundingDate": "2000",
         "numberOfEmployees": {"@type": "QuantitativeValue", "minValue": 2},
@@ -140,6 +156,7 @@
               <li><a href="/our-network/">Our Network</a></li>
             </ul>
           </li>
+          <li><a href="/locations/">Locations</a></li>
           <li><a href="/blog/">Blog</a></li>
           <li><a href="/contact-us/">Contact</a></li>
         </ul>
@@ -168,6 +185,7 @@
           </ul>
         </li>
         <li><a href="/about-us/">About Us</a></li>
+        <li><a href="/locations/">Locations</a></li>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/contact-us/">Contact</a></li>
         <li><a href="tel:2036879370" style="color: var(--teal);">(203) 687-9370</a></li>
@@ -219,7 +237,7 @@
       <div class="container">
         <div class="text-center" style="margin-bottom: var(--space-2xl);">
           <h2>Comprehensive ITAD Services</h2>
-          <p style="max-width: 650px; margin: 0 auto; color: var(--gray-400);">From secure data destruction to full data center shutdowns, we handle every phase of IT asset retirement with certified processes and complete documentation.</p>
+          <p style="max-width: 650px; margin: 0 auto; color: var(--text-muted);">From secure data destruction to full data center shutdowns, we handle every phase of IT asset retirement with certified processes and complete documentation.</p>
         </div>
 
         <div class="grid grid--4">
@@ -326,8 +344,47 @@
       </div>
     </section>
 
-    <!-- Testimonials -->
+    <!-- Connecticut Service Area -->
     <section class="section section--surface">
+      <div class="container">
+        <div class="text-center" style="margin-bottom: var(--space-2xl);">
+          <h2>Connecticut Service Area</h2>
+          <p style="max-width: 650px; margin: 0 auto; color: var(--text-muted);">Local same-week pickup throughout south-central Connecticut, from our Branford facility.</p>
+        </div>
+        <div class="grid grid--3">
+          <div class="card fade-in">
+            <h3><a href="/locations/new-haven/" style="text-decoration: none;">New Haven</a></h3>
+            <p>Yale, biotech, healthcare &amp; downtown. ~12 min from Branford.</p>
+          </div>
+          <div class="card fade-in">
+            <h3><a href="/locations/guilford/" style="text-decoration: none;">Guilford</a></h3>
+            <p>Professional services, marine, retail. ~7 min east.</p>
+          </div>
+          <div class="card fade-in">
+            <h3><a href="/locations/hamden/" style="text-decoration: none;">Hamden</a></h3>
+            <p>Manufacturing, Quinnipiac area, professional. ~20 min.</p>
+          </div>
+          <div class="card fade-in">
+            <h3><a href="/locations/north-haven/" style="text-decoration: none;">North Haven</a></h3>
+            <p>I-91 industrial corridor, corporate, distribution. ~18 min.</p>
+          </div>
+          <div class="card fade-in">
+            <h3><a href="/locations/madison/" style="text-decoration: none;">Madison</a></h3>
+            <p>Shoreline professionals, small business, residents. ~15 min.</p>
+          </div>
+          <div class="card fade-in">
+            <h3><a href="/locations/east-haven/" style="text-decoration: none;">East Haven</a></h3>
+            <p>Small business, marine, services. ~10 min west.</p>
+          </div>
+        </div>
+        <div class="text-center" style="margin-top: var(--space-xl);">
+          <a href="/locations/" class="btn btn--outline">View All Locations</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section">
       <div class="container">
         <h2 class="text-center" style="margin-bottom: var(--space-2xl);">What Our Clients Say</h2>
         <div class="grid grid--2">
@@ -379,11 +436,14 @@
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Company</h4>
+          <h4>Locations</h4>
           <ul>
-            <li><a href="/about-us/">About Us</a></li>
-            <li><a href="/blog/">Blog</a></li>
-            <li><a href="/contact-us/">Contact</a></li>
+            <li><a href="/locations/guilford/">Guilford</a></li>
+            <li><a href="/locations/new-haven/">New Haven</a></li>
+            <li><a href="/locations/hamden/">Hamden</a></li>
+            <li><a href="/locations/north-haven/">North Haven</a></li>
+            <li><a href="/locations/madison/">Madison</a></li>
+            <li><a href="/locations/east-haven/">East Haven</a></li>
           </ul>
         </div>
         <div class="footer-col">
