@@ -1,4 +1,16 @@
 {
   "cleanUrls": true,
-  "trailingSlash": true
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/certifications/r2-certified",
+      "destination": "/our-network/",
+      "permanent": true
+    },
+    {
+      "source": "/certifications",
+      "destination": "/our-network/",
+      "permanent": true
+    }
+  ]
 }
