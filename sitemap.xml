@@ -169,6 +169,24 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://hightidemgt.com/blog/environmental-cost-ewaste/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hightidemgt.com/blog/data-center-shutdown-savings/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hightidemgt.com/blog/itad-healthcare-hipaa/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://hightidemgt.com/data-destruction-company-ct-questions/</loc>
     <lastmod>2026-06-15</lastmod>
     <changefreq>yearly</changefreq>
