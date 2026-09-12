@@ -85,6 +85,7 @@ body {
 img { max-width: 100%; height: auto; display: block; }
 a { color: var(--link); text-decoration: none; transition: color var(--transition); }
 a:hover, a:focus { color: var(--link-hover); }
+main p a:not(.btn) { text-decoration: underline; text-underline-offset: 2px; }
 
 /* --- Typography --- */
 h1, h2, h3, h4, h5, h6 {
@@ -350,7 +351,7 @@ hr { border: none; border-top: 1px solid var(--gray-200); margin: var(--space-2x
 .hero h1 .accent { color: var(--teal-glow); }
 .hero p {
   font-size: 1.1rem;
-  color: rgba(255,255,255,0.85);
+  color: rgba(255,255,255,0.95);
   max-width: 520px;
   margin-bottom: var(--space-xl);
   line-height: 1.7;
@@ -479,7 +480,7 @@ hr { border: none; border-top: 1px solid var(--gray-200); margin: var(--space-2x
   font-size: 0.85rem;
   color: var(--gray-500);
 }
-.breadcrumbs a { color: var(--gray-400); }
+.breadcrumbs a { color: var(--gray-500); }
 .breadcrumbs a:hover { color: var(--blue); }
 .breadcrumbs span { margin: 0 var(--space-sm); }
 
@@ -580,7 +581,7 @@ hr { border: none; border-top: 1px solid var(--gray-200); margin: var(--space-2x
   display: flex;
   align-items: center;
   gap: var(--space-sm);
-  color: var(--gray-400);
+  color: var(--gray-500);
   font-size: 0.9rem;
   font-weight: 500;
 }
@@ -606,7 +607,7 @@ hr { border: none; border-top: 1px solid var(--gray-200); margin: var(--space-2x
 .stat__label {
   display: block;
   font-size: 0.9rem;
-  color: var(--gray-400);
+  color: var(--gray-500);
   margin-top: var(--space-xs);
 }
 
@@ -678,7 +679,7 @@ hr { border: none; border-top: 1px solid var(--gray-200); margin: var(--space-2x
 .blog-card h3 a:hover { color: var(--blue); }
 .blog-card p {
   font-size: 0.9rem;
-  color: var(--gray-400);
+  color: var(--gray-500);
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -692,7 +693,7 @@ hr { border: none; border-top: 1px solid var(--gray-200); margin: var(--space-2x
 
 /* Article body (blog posts) */
 .article-meta {
-  color: var(--gray-400);
+  color: var(--gray-500);
   font-size: 0.9rem;
   margin-bottom: var(--space-xl);
 }
@@ -766,7 +767,7 @@ hr { border: none; border-top: 1px solid var(--gray-200); margin: var(--space-2x
 }
 .site-footer .logo { color: var(--white); }
 .site-footer .logo:hover { color: var(--teal-glow); }
-.footer-col h4 {
+.footer-col h3 {
   color: var(--white);
   font-size: 0.9rem;
   text-transform: uppercase;
