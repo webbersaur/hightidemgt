@@ -1,6 +1,6 @@
 # hightidemgt SEO - pick up here
 
-Last worked: 2026-08-21 (site changes), 2026-08-23 (GSC check, interrupted), 2026-08-24 (indexing-blocker fixes, shipped)
+Last worked: 2026-09-12 (90-day audit + fixes shipped, `29b95b0`)
 
 ## Done and shipped
 
@@ -103,7 +103,39 @@ Post-deploy verification (all passing):
 - all four OG images return 200
 - all three blog canonicals now self-reference the clean URL
 
-## Still open
+## 2026-09-12: 90-day audit and fixes (`29b95b0`, pushed + verified live)
+
+Report: https://claude.ai/code/artifact/14cd2065-299f-46f6-a572-63c51acee17f
+
+GSC last 90 days vs prior: clicks 54 (was 13), impressions 3,210 (was 1,290),
+queries 240 (was 67), non-brand in top 10: 55 (was 11). Indexed 51 (was 28).
+Weekly impressions ~127/wk before the Aug 21/24 deploys, ~547/wk after.
+
+**Every open item above is now closed:**
+- The 403 x2 (now x3): `/wp-admin/*`, `/wp-admin/admin-ajax.php`,
+  `/wp-content/themes/Divi/images`. Stale WordPress paths. Harmless.
+- 5th reason row: 3 "crawled, not indexed" (`/services` no-slash,
+  decommissioning checklist, ct-questions) + 1 "discovered" (north-haven).
+- 404 x4: old WP affiliate/category URLs and a literal `/*`. Correct.
+- Redirect x6: www/http variants, old blog .html, old certifications path. Correct.
+- All four Aug 21 pages indexed and receiving impressions.
+- North Haven: indexing requested 2026-09-12. Do NOT re-request.
+
+**Fixed in `29b95b0`:** favicon set (was 404), GA4 on the 3 blog posts,
+Google Fonts non-blocking + hero WebP preload, 36 titles trimmed to <=63,
+26 descriptions to <=158, "Learn more" anchors made descriptive, contrast /
+underline / footer h4->h3 (Lighthouse a11y + BP + SEO now 100/100/100).
+
+**Still open:**
+- Mobile LCP ~4.3 s simulated (render delay cut from 1.56 s to 0.63 s
+  observed). Getting under 2.5 s needs inlined critical CSS or the hero
+  rebuilt as an `<img>`. Layout change - do deliberately, not as a sweep.
+- Backlinks: 9 links from 5 domains, all to the home page. Needs outreach.
+- Mac hard-drive-wiping content: 87 impressions at position 7.5, zero clicks.
+- Recheck GSC Pages report ~Sep 26 for north-haven and the two remaining
+  "crawled, not indexed" content pages.
+
+## Still open (as of 2026-08-24, superseded by the 9/12 section above)
 
 **The 403 x2.** Not identified - these cannot be found from outside, since every
 URL I can enumerate returns 200 or a correct 404. Needs the actual URL list from
