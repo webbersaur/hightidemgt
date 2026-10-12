@@ -1,0 +1,5 @@
+# Internal notes - never deploy
+/*.md
+/notes/
+/email-*.txt
+/.github/
