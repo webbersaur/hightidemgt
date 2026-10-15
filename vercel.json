@@ -11,6 +11,11 @@
       "source": "/certifications/",
       "destination": "/our-network/",
       "permanent": true
+    },
+    {
+      "source": "/server-decommissioning-yale-biotech-cluster/",
+      "destination": "/services/data-center-decommissioning/server-decommissioning/",
+      "permanent": true
     }
   ]
 }
