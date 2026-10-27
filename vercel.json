@@ -16,6 +16,11 @@
       "source": "/server-decommissioning-yale-biotech-cluster/",
       "destination": "/services/data-center-decommissioning/server-decommissioning/",
       "permanent": true
+    },
+    {
+      "source": "/locations/branford/",
+      "destination": "/locations/",
+      "permanent": true
     }
   ]
 }
