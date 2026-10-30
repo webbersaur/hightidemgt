@@ -18,8 +18,13 @@
       "permanent": true
     },
     {
-      "source": "/locations/branford/",
-      "destination": "/locations/",
+      "source": "/locations/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/:slug/",
+      "destination": "/",
       "permanent": true
     }
   ]
